@@ -13,6 +13,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     private Button btnCapture;
     private ImageView imgCapture;
+    private int count = 0;
     private static final int Image_Capture_Code = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent cInt = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                cInt.putExtra(MediaStore.EXTRA_OUTPUT, "scan" + count + ".jpg");
+                cInt.putExtra("android.intent.extra.quickCapture", true);
                 startActivityForResult(cInt,Image_Capture_Code);
             }
         });
@@ -33,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 Bitmap bp = (Bitmap) data.getExtras().get("data");
                 imgCapture.setImageBitmap(bp);
+                count++;
             } else if (resultCode == RESULT_CANCELED) {
                 Toast.makeText(this, "Cancelled", Toast.LENGTH_LONG).show();
             }
