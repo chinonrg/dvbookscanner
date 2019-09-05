@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "33102188822",
+    "firebase_url": "https://bookscannerdv.firebaseio.com",
+    "project_id": "bookscannerdv",
+    "storage_bucket": "bookscannerdv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33102188822:android:2723e1d8d6e5e7e8",
+        "android_client_info": {
+          "package_name": "com.davinci.bookscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33102188822-q1fc9rre63ljh5kdkouv04ui93efi1ri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhw9Dj9Geh9vuybv0YbCdACUyyguZmRCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33102188822-q1fc9rre63ljh5kdkouv04ui93efi1ri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33102188822:android:57863baca846afec",
+        "android_client_info": {
+          "package_name": "com.example.dvbookscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33102188822-mms2j4hvqv1e2at921i5ij19qp2ddcd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dvbookscanner",
+            "certificate_hash": "c7aee7f8fb95f2446481e5e1386d38c17ae03280"
+          }
+        },
+        {
+          "client_id": "33102188822-q1fc9rre63ljh5kdkouv04ui93efi1ri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhw9Dj9Geh9vuybv0YbCdACUyyguZmRCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33102188822-q1fc9rre63ljh5kdkouv04ui93efi1ri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
