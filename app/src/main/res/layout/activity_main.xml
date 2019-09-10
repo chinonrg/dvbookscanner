@@ -62,13 +62,14 @@
         app:layout_constraintTop_toBottomOf="@+id/nombreCarpeta" />
 
     <EditText
-        android:id="@+id/cantidadHojas"
-        android:layout_width="97dp"
-        android:layout_height="42dp"
+        android:id="@+id/cantidad"
+        android:layout_width="94dp"
+        android:layout_height="36dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/texto2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
