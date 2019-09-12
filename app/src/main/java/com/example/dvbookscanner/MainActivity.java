@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 while(cant > count) {
                     sacarFoto();
+
                 }
             } else if (resultCode == RESULT_CANCELED) {
                 Toast.makeText(this, "Cancelado", Toast.LENGTH_LONG).show();
